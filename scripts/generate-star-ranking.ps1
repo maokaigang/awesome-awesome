@@ -120,27 +120,71 @@ function Get-CategoryDisplayZh {
     }
 }
 
-$results = @()
+$canonicalMap = @{}
 $failures = @()
+$mergedAliases = @()
 
 foreach ($entry in $repoMap.Values | Sort-Object Repo) {
     try {
         $repoData = Get-RepoData -Repo $entry.Repo
         $categoryList = @($entry.Categories | Sort-Object)
-        $results += [PSCustomObject]@{
-            Repo         = $entry.Repo
-            Url          = $entry.Url
-            Stars        = [int]$repoData.stargazers_count
-            Categories   = $categoryList -join ", "
-            CategoryList = $categoryList
-            PushedAt     = [DateTime]$repoData.pushed_at
-            Archived     = [bool]$repoData.archived
-            Description  = $entry.Description
+        $canonicalKey = [string]$repoData.id
+        $canonicalRepo = [string]$repoData.full_name
+        $canonicalUrl = [string]$repoData.html_url
+
+        if (-not $canonicalMap.ContainsKey($canonicalKey)) {
+            $categorySet = [System.Collections.Generic.HashSet[string]]::new()
+            foreach ($c in $categoryList) {
+                [void]$categorySet.Add($c)
+            }
+
+            $aliasSet = [System.Collections.Generic.HashSet[string]]::new()
+            [void]$aliasSet.Add($entry.Repo)
+
+            $canonicalMap[$canonicalKey] = [PSCustomObject]@{
+                Repo        = $canonicalRepo
+                Url         = $canonicalUrl
+                Stars       = [int]$repoData.stargazers_count
+                CategorySet = $categorySet
+                PushedAt    = [DateTime]$repoData.pushed_at
+                Archived    = [bool]$repoData.archived
+                Description = $entry.Description
+                Aliases     = $aliasSet
+            }
+        } else {
+            $existing = $canonicalMap[$canonicalKey]
+            foreach ($c in $categoryList) {
+                [void]$existing.CategorySet.Add($c)
+            }
+            [void]$existing.Aliases.Add($entry.Repo)
+            $aliasList = @($existing.Aliases | Sort-Object)
+            $mergedAliases += "$canonicalRepo <= " + ($aliasList -join ", ")
         }
+
         Write-Host "Fetched: $($entry.Repo)" -ForegroundColor Green
     } catch {
         $failures += $entry.Repo
         Write-Host "Failed: $($entry.Repo) => $($_.Exception.Message)" -ForegroundColor Yellow
+    }
+}
+
+if ($canonicalMap.Count -eq 0) {
+    Write-Error "Could not fetch star data for any repository."
+}
+
+$results = @()
+foreach ($item in $canonicalMap.Values) {
+    $categoryList = @($item.CategorySet | Sort-Object)
+    $results += [PSCustomObject]@{
+        Repo         = $item.Repo
+        Url          = $item.Url
+        Stars        = $item.Stars
+        Categories   = $categoryList -join ", "
+        CategoryList = $categoryList
+        PushedAt     = $item.PushedAt
+        Archived     = $item.Archived
+        Description  = $item.Description
+        Aliases      = @($item.Aliases | Sort-Object)
     }
 }
 
@@ -212,6 +256,17 @@ foreach ($category in $categoryNames) {
     }
 }
 
+if ($mergedAliases.Count -gt 0) {
+    $aliasLines = $mergedAliases | Sort-Object -Unique
+    $linesEn += ""
+    $linesEn += "## Canonical Merge Notes"
+    $linesEn += ""
+    $linesEn += "Merged redirected/aliased entries:"
+    foreach ($alias in $aliasLines) {
+        $linesEn += "- $alias"
+    }
+}
+
 if ($failures.Count -gt 0) {
     $linesEn += ""
     $linesEn += "## Fetch Warnings"
@@ -273,6 +328,17 @@ foreach ($category in $categoryNames) {
         $note = if ($item.Archived) { "已归档" } else { "-" }
         $linesZh += "| $categoryRank | $globalRank | $repoLink | $stars | $lastPush | $note |"
         $categoryRank++
+    }
+}
+
+if ($mergedAliases.Count -gt 0) {
+    $aliasLines = $mergedAliases | Sort-Object -Unique
+    $linesZh += ""
+    $linesZh += "## Canonical 合并说明"
+    $linesZh += ""
+    $linesZh += "以下重定向或别名仓库已自动合并："
+    foreach ($alias in $aliasLines) {
+        $linesZh += "- $alias"
     }
 }
 
