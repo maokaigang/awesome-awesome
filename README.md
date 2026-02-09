@@ -52,10 +52,12 @@ There are thousands of `awesome-xxx` repos. This project helps you:
 
 Each listed repo should satisfy most of these:
 
+- Repository name starts with `awesome` (case-insensitive).
 - Clear topic scope (not a random dump).
 - Good README structure and tagging.
 - Recently maintained (prefer updates in the last 12 months).
 - Useful signal: stars, community usage, or expert curation.
+- Fast-track signal: repositories with `>= 5,000` stars are preferred for inclusion.
 - Low spam ratio and broken link ratio.
 
 ## Entry Format

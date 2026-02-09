@@ -14,6 +14,12 @@ Score each candidate from 1 to 5 on each dimension:
 
 Recommended inclusion threshold: total score >= 18/25.
 
+## Inclusion Rules
+
+- Repository name should start with `awesome` (case-insensitive).
+- Keep scoring by the rubric for every candidate.
+- Fast-track: if a candidate has `>= 5,000` stars, it can be included even below 18/25, as long as it does not hit exclusion heuristics.
+
 ## Exclusion Heuristics
 
 Do not include repos with:

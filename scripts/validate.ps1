@@ -33,6 +33,14 @@ foreach ($file in $files) {
 
             $repo = $matches[1]
             $url = $matches[2]
+            $repoName = ($repo -split '/', 2)[1]
+
+            if ([string]::IsNullOrWhiteSpace($repoName) -or $repoName -notmatch '^(?i)awesome') {
+                Write-Host "Naming error in $($file.Name): repository name must start with 'awesome' => $repo" -ForegroundColor Red
+                $hasError = $true
+                continue
+            }
+
             $entries += $repo
             $allLinks += [PSCustomObject]@{
                 File = $file.Name

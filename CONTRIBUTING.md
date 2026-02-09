@@ -7,6 +7,7 @@ Thanks for helping improve this list.
 Submit repositories that are:
 
 - Primarily an `awesome-xxx` list, index, or high-signal curated hub.
+- Repository name starts with `awesome` (case-insensitive).
 - Public and accessible without sign-in.
 - Valuable for broad audiences in their topic.
 
@@ -23,6 +24,7 @@ Submit repositories that are:
 - Use one-line neutral descriptions.
 - Prefer canonical GitHub URLs (no tracking params).
 - Ensure the link is reachable.
+- If a candidate has `>= 5,000` stars, you may still submit it even if rubric score is below the default threshold, provided exclusion heuristics are not triggered.
 
 ## Pull request title
 
