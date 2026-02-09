@@ -1,0 +1,25 @@
+name: Report broken link
+description: Report an unreachable or moved link
+title: "broken link: <url>"
+labels:
+  - broken-link
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: File path
+      placeholder: categories/frontend.md
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Additional context
+      placeholder: optional

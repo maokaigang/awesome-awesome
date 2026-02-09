@@ -1,0 +1,36 @@
+name: Suggest awesome repo
+description: Suggest a new awesome repository for inclusion
+title: "suggest: owner/repo for <category>"
+labels:
+  - suggestion
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: GitHub repo in owner/repo format
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - ai
+        - frontend
+        - backend
+        - devops
+        - security
+        - data
+        - mobile
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why include this repo
+      description: Explain why this is high quality and useful
+      placeholder: concise rationale
+    validations:
+      required: true

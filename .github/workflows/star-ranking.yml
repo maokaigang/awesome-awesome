@@ -1,0 +1,46 @@
+name: Update Star Ranking
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      top_n:
+        description: "Top N per category"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write
+
+jobs:
+  update-star-ranking:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate star ranking
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $topN = "${{ github.event.inputs.top_n }}"
+          if ([string]::IsNullOrWhiteSpace($topN)) {
+            $topN = "5"
+          }
+          ./scripts/generate-star-ranking.ps1 -TopN ([int]$topN)
+
+      - name: Commit and push changes
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/STAR_RANKING.md docs/STAR_RANKING.zh-CN.md
+          if (git diff --cached --quiet) {
+            Write-Host "No changes to commit."
+            exit 0
+          }
+          git commit -m "chore: update star ranking"
+          git push
