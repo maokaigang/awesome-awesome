@@ -19,6 +19,9 @@ Recommended inclusion threshold: total score >= 18/25.
 - Repository name should start with `awesome` (case-insensitive).
 - Keep scoring by the rubric for every candidate.
 - Fast-track: if a candidate has `>= 5,000` stars, it can be included even below 18/25, as long as it does not hit exclusion heuristics.
+- Fork policy: prefer non-fork repositories by default.
+- Exception: if a fork has higher stars than its upstream/source, you may include the fork.
+- Uniqueness: only one repository can be included from the same upstream/source lineage.
 
 ## Exclusion Heuristics
 

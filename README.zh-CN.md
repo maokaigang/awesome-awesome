@@ -24,6 +24,7 @@
 ## 治理与规范
 
 - 校验脚本：[`scripts/validate.sh`](scripts/validate.sh)
+- 收录策略校验脚本：[`scripts/validate-selection.sh`](scripts/validate-selection.sh)
 - 链接检查脚本：[`scripts/check-links.sh`](scripts/check-links.sh)
 - Star 排行脚本：[`scripts/generate-star-ranking.sh`](scripts/generate-star-ranking.sh)
 - CI 工作流：[`.github/workflows/validate.yml`](.github/workflows/validate.yml)

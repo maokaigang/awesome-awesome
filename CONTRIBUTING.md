@@ -25,6 +25,8 @@ Submit repositories that are:
 - Prefer canonical GitHub URLs (no tracking params).
 - Ensure the link is reachable.
 - If a candidate has `>= 5,000` stars, you may still submit it even if rubric score is below the default threshold, provided exclusion heuristics are not triggered.
+- Prefer non-fork repos. If a fork has higher stars than its upstream/source, keep the higher one.
+- Do not include both a fork and its upstream/source; only one can be listed.
 
 ## Pull request title
 

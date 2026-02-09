@@ -16,3 +16,9 @@ jobs:
       - name: Run validator
         shell: bash
         run: bash ./scripts/validate.sh
+
+      - name: Run selection policy validator
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash ./scripts/validate-selection.sh

@@ -24,6 +24,7 @@ There are thousands of `awesome-xxx` repos. This project helps you:
 ## Governance
 
 - Validation script: [`scripts/validate.sh`](scripts/validate.sh)
+- Selection policy validator: [`scripts/validate-selection.sh`](scripts/validate-selection.sh)
 - Link check script: [`scripts/check-links.sh`](scripts/check-links.sh)
 - Star ranking script: [`scripts/generate-star-ranking.sh`](scripts/generate-star-ranking.sh)
 - CI workflow: [`.github/workflows/validate.yml`](.github/workflows/validate.yml)
