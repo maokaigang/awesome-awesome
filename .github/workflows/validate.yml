@@ -13,6 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Run PowerShell validator
-        shell: pwsh
-        run: ./scripts/validate.ps1
+      - name: Run validator
+        shell: bash
+        run: bash ./scripts/validate.sh

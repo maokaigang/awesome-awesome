@@ -1,4 +1,4 @@
-# awesome-awesome
+# Awesome AWESOME
 
 > 一个专门收录优质 `awesome-xxx` 仓库的精选索引。
 
@@ -23,9 +23,9 @@
 
 ## 治理与规范
 
-- 校验脚本：[`scripts/validate.ps1`](scripts/validate.ps1)
-- 链接检查脚本：[`scripts/check-links.ps1`](scripts/check-links.ps1)
-- Star 排行脚本：[`scripts/generate-star-ranking.ps1`](scripts/generate-star-ranking.ps1)
+- 校验脚本：[`scripts/validate.sh`](scripts/validate.sh)
+- 链接检查脚本：[`scripts/check-links.sh`](scripts/check-links.sh)
+- Star 排行脚本：[`scripts/generate-star-ranking.sh`](scripts/generate-star-ranking.sh)
 - CI 工作流：[`.github/workflows/validate.yml`](.github/workflows/validate.yml)
 - 定时死链检查工作流：[`.github/workflows/link-check.yml`](.github/workflows/link-check.yml)
 - 定时 Star 排行更新工作流：[`.github/workflows/star-ranking.yml`](.github/workflows/star-ranking.yml)

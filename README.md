@@ -1,4 +1,4 @@
-# awesome-awesome
+# Awesome AWESOME
 
 > A curated index of truly awesome `awesome-xxx` repositories.
 
@@ -23,9 +23,9 @@ There are thousands of `awesome-xxx` repos. This project helps you:
 
 ## Governance
 
-- Validation script: [`scripts/validate.ps1`](scripts/validate.ps1)
-- Link check script: [`scripts/check-links.ps1`](scripts/check-links.ps1)
-- Star ranking script: [`scripts/generate-star-ranking.ps1`](scripts/generate-star-ranking.ps1)
+- Validation script: [`scripts/validate.sh`](scripts/validate.sh)
+- Link check script: [`scripts/check-links.sh`](scripts/check-links.sh)
+- Star ranking script: [`scripts/generate-star-ranking.sh`](scripts/generate-star-ranking.sh)
 - CI workflow: [`.github/workflows/validate.yml`](.github/workflows/validate.yml)
 - Scheduled link check workflow: [`.github/workflows/link-check.yml`](.github/workflows/link-check.yml)
 - Scheduled star ranking workflow: [`.github/workflows/star-ranking.yml`](.github/workflows/star-ranking.yml)
