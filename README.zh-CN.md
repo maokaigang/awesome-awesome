@@ -1,4 +1,4 @@
-# Awesome AWESOME
+# Awesome Awesome
 
 > 一个专门收录优质 `awesome-xxx` 仓库的精选索引。
 

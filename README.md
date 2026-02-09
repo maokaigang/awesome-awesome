@@ -1,4 +1,4 @@
-# Awesome AWESOME
+# Awesome Awesome
 
 > A curated index of truly awesome `awesome-xxx` repositories.
 
