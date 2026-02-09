@@ -74,7 +74,7 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-github-username/awesome-awesome&type=Date)](https://star-history.com/#your-github-username/awesome-awesome&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=maokaigang/awesome-awesome&type=Date)](https://star-history.com/#maokaigang/awesome-awesome&Date)
 
 ## 许可证
 
