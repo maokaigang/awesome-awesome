@@ -4,7 +4,7 @@
 
 [![中文](https://img.shields.io/badge/语言-中文-blue)](STAR_RANKING.zh-CN.md)
 
-- Last updated: 2026-05-19 06:42:27 UTC
+- Last updated: 2026-05-20 06:42:45 UTC
 - Data source: GitHub REST API (`stargazers_count`)
 - Category Top N: 5
 
@@ -12,40 +12,40 @@
 
 | Rank | Repository | Stars | Categories | Last Push (UTC) | Notes |
 | --- | --- | ---: | --- | --- | --- |
-| 1 | [`vinta/awesome-python`](https://github.com/vinta/awesome-python) | 298,429 | backend | 2026-05-19 | - |
-| 2 | [`awesome-selfhosted/awesome-selfhosted`](https://github.com/awesome-selfhosted/awesome-selfhosted) | 293,642 | devops | 2026-05-16 | - |
-| 3 | [`avelino/awesome-go`](https://github.com/avelino/awesome-go) | 173,028 | backend | 2026-05-18 | - |
-| 4 | [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps) | 111,020 | ai | 2026-05-09 | - |
-| 5 | [`awesomedata/awesome-public-datasets`](https://github.com/awesomedata/awesome-public-datasets) | 75,515 | data | 2026-05-14 | - |
-| 6 | [`vuejs/awesome-vue`](https://github.com/vuejs/awesome-vue) | 73,598 | frontend | 2026-05-12 | - |
-| 7 | [`enaqx/awesome-react`](https://github.com/enaqx/awesome-react) | 73,313 | frontend | 2026-03-27 | - |
-| 8 | [`josephmisiti/awesome-machine-learning`](https://github.com/josephmisiti/awesome-machine-learning) | 72,514 | ai | 2026-05-12 | - |
-| 9 | [`sindresorhus/awesome-nodejs`](https://github.com/sindresorhus/awesome-nodejs) | 65,749 | frontend | 2026-05-03 | - |
-| 10 | [`Solido/awesome-flutter`](https://github.com/Solido/awesome-flutter) | 60,051 | mobile | 2026-04-21 | - |
-| 11 | [`rust-unofficial/awesome-rust`](https://github.com/rust-unofficial/awesome-rust) | 57,393 | backend | 2026-05-18 | - |
-| 12 | [`wasabeef/awesome-android-ui`](https://github.com/wasabeef/awesome-android-ui) | 56,144 | mobile | 2024-07-06 | - |
-| 13 | [`vsouza/awesome-ios`](https://github.com/vsouza/awesome-ios) | 52,216 | mobile | 2026-04-24 | - |
-| 14 | [`akullpp/awesome-java`](https://github.com/akullpp/awesome-java) | 47,974 | backend | 2026-04-12 | - |
-| 15 | [`veggiemonk/awesome-docker`](https://github.com/veggiemonk/awesome-docker) | 36,036 | devops | 2026-05-18 | - |
-| 16 | [`jondot/awesome-react-native`](https://github.com/jondot/awesome-react-native) | 35,683 | mobile | 2024-07-05 | - |
-| 17 | [`sorrycc/awesome-javascript`](https://github.com/sorrycc/awesome-javascript) | 34,969 | frontend | 2026-04-23 | - |
-| 18 | [`awesome-foss/awesome-sysadmin`](https://github.com/awesome-foss/awesome-sysadmin) | 33,946 | devops | 2026-05-16 | - |
-| 19 | [`academic/awesome-datascience`](https://github.com/academic/awesome-datascience) | 29,229 | data | 2026-05-18 | - |
-| 20 | [`keon/awesome-nlp`](https://github.com/keon/awesome-nlp) | 18,554 | ai | 2026-05-11 | - |
-| 21 | [`BradyFU/Awesome-Multimodal-Large-Language-Models`](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 17,804 | ai | 2026-05-01 | - |
-| 22 | [`jtoy/awesome-tensorflow`](https://github.com/jtoy/awesome-tensorflow) | 17,535 | ai | 2026-02-08 | - |
-| 23 | [`ramitsurana/awesome-kubernetes`](https://github.com/ramitsurana/awesome-kubernetes) | 15,939 | devops | 2026-04-28 | - |
-| 24 | [`oxnr/awesome-bigdata`](https://github.com/oxnr/awesome-bigdata) | 14,396 | data | 2026-02-05 | - |
-| 25 | [`sbilly/awesome-security`](https://github.com/sbilly/awesome-security) | 14,340 | security | 2026-01-11 | - |
-| 26 | [`qazbnm456/awesome-web-security`](https://github.com/qazbnm456/awesome-web-security) | 13,375 | security | 2026-05-14 | - |
-| 27 | [`dastergon/awesome-sre`](https://github.com/dastergon/awesome-sre) | 13,209 | devops | 2025-08-28 | - |
-| 28 | [`diff-usion/Awesome-Diffusion-Models`](https://github.com/diff-usion/Awesome-Diffusion-Models) | 12,320 | ai | 2024-08-01 | - |
-| 29 | [`igorbarinov/awesome-data-engineering`](https://github.com/igorbarinov/awesome-data-engineering) | 8,650 | data | 2026-05-14 | - |
-| 30 | [`0xInfection/Awesome-WAF`](https://github.com/0xInfection/Awesome-WAF) | 7,476 | security | 2026-03-26 | - |
-| 31 | [`paragonie/awesome-appsec`](https://github.com/paragonie/awesome-appsec) | 6,914 | security | 2025-02-22 | - |
-| 32 | [`awesome-css-group/awesome-css`](https://github.com/awesome-css-group/awesome-css) | 5,558 | frontend | 2024-10-30 | - |
-| 33 | [`xlite-dev/Awesome-LLM-Inference`](https://github.com/xlite-dev/Awesome-LLM-Inference) | 5,225 | ai | 2026-04-20 | - |
-| 34 | [`uhub/awesome-cpp`](https://github.com/uhub/awesome-cpp) | 1,170 | backend | 2026-04-25 | - |
+| 1 | [`vinta/awesome-python`](https://github.com/vinta/awesome-python) | 298,609 | backend | 2026-05-19 | - |
+| 2 | [`awesome-selfhosted/awesome-selfhosted`](https://github.com/awesome-selfhosted/awesome-selfhosted) | 293,919 | devops | 2026-05-16 | - |
+| 3 | [`avelino/awesome-go`](https://github.com/avelino/awesome-go) | 173,113 | backend | 2026-05-19 | - |
+| 4 | [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps) | 111,165 | ai | 2026-05-09 | - |
+| 5 | [`awesomedata/awesome-public-datasets`](https://github.com/awesomedata/awesome-public-datasets) | 75,546 | data | 2026-05-19 | - |
+| 6 | [`vuejs/awesome-vue`](https://github.com/vuejs/awesome-vue) | 73,602 | frontend | 2026-05-12 | - |
+| 7 | [`enaqx/awesome-react`](https://github.com/enaqx/awesome-react) | 73,331 | frontend | 2026-03-27 | - |
+| 8 | [`josephmisiti/awesome-machine-learning`](https://github.com/josephmisiti/awesome-machine-learning) | 72,523 | ai | 2026-05-12 | - |
+| 9 | [`sindresorhus/awesome-nodejs`](https://github.com/sindresorhus/awesome-nodejs) | 65,760 | frontend | 2026-05-03 | - |
+| 10 | [`Solido/awesome-flutter`](https://github.com/Solido/awesome-flutter) | 60,058 | mobile | 2026-04-21 | - |
+| 11 | [`rust-unofficial/awesome-rust`](https://github.com/rust-unofficial/awesome-rust) | 57,415 | backend | 2026-05-20 | - |
+| 12 | [`wasabeef/awesome-android-ui`](https://github.com/wasabeef/awesome-android-ui) | 56,160 | mobile | 2024-07-06 | - |
+| 13 | [`vsouza/awesome-ios`](https://github.com/vsouza/awesome-ios) | 52,229 | mobile | 2026-04-24 | - |
+| 14 | [`akullpp/awesome-java`](https://github.com/akullpp/awesome-java) | 47,988 | backend | 2026-04-12 | - |
+| 15 | [`veggiemonk/awesome-docker`](https://github.com/veggiemonk/awesome-docker) | 36,044 | devops | 2026-05-18 | - |
+| 16 | [`jondot/awesome-react-native`](https://github.com/jondot/awesome-react-native) | 35,688 | mobile | 2024-07-05 | - |
+| 17 | [`sorrycc/awesome-javascript`](https://github.com/sorrycc/awesome-javascript) | 34,974 | frontend | 2026-04-23 | - |
+| 18 | [`awesome-foss/awesome-sysadmin`](https://github.com/awesome-foss/awesome-sysadmin) | 33,959 | devops | 2026-05-16 | - |
+| 19 | [`academic/awesome-datascience`](https://github.com/academic/awesome-datascience) | 29,236 | data | 2026-05-19 | - |
+| 20 | [`keon/awesome-nlp`](https://github.com/keon/awesome-nlp) | 18,604 | ai | 2026-05-19 | - |
+| 21 | [`BradyFU/Awesome-Multimodal-Large-Language-Models`](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 17,807 | ai | 2026-05-01 | - |
+| 22 | [`jtoy/awesome-tensorflow`](https://github.com/jtoy/awesome-tensorflow) | 17,538 | ai | 2026-02-08 | - |
+| 23 | [`ramitsurana/awesome-kubernetes`](https://github.com/ramitsurana/awesome-kubernetes) | 15,940 | devops | 2026-04-28 | - |
+| 24 | [`oxnr/awesome-bigdata`](https://github.com/oxnr/awesome-bigdata) | 14,398 | data | 2026-05-19 | - |
+| 25 | [`sbilly/awesome-security`](https://github.com/sbilly/awesome-security) | 14,351 | security | 2026-01-11 | - |
+| 26 | [`qazbnm456/awesome-web-security`](https://github.com/qazbnm456/awesome-web-security) | 13,380 | security | 2026-05-14 | - |
+| 27 | [`dastergon/awesome-sre`](https://github.com/dastergon/awesome-sre) | 13,212 | devops | 2025-08-28 | - |
+| 28 | [`diff-usion/Awesome-Diffusion-Models`](https://github.com/diff-usion/Awesome-Diffusion-Models) | 12,323 | ai | 2024-08-01 | - |
+| 29 | [`igorbarinov/awesome-data-engineering`](https://github.com/igorbarinov/awesome-data-engineering) | 8,651 | data | 2026-05-14 | - |
+| 30 | [`0xInfection/Awesome-WAF`](https://github.com/0xInfection/Awesome-WAF) | 7,477 | security | 2026-03-26 | - |
+| 31 | [`paragonie/awesome-appsec`](https://github.com/paragonie/awesome-appsec) | 6,915 | security | 2025-02-22 | - |
+| 32 | [`awesome-css-group/awesome-css`](https://github.com/awesome-css-group/awesome-css) | 5,560 | frontend | 2024-10-30 | - |
+| 33 | [`xlite-dev/Awesome-LLM-Inference`](https://github.com/xlite-dev/Awesome-LLM-Inference) | 5,230 | ai | 2026-04-20 | - |
+| 34 | [`uhub/awesome-cpp`](https://github.com/uhub/awesome-cpp) | 1,171 | backend | 2026-04-25 | - |
 
 ## Top 5 by Category
 
@@ -53,65 +53,65 @@
 
 | Category Rank | Global Rank | Repository | Stars | Last Push (UTC) | Notes |
 | --- | --- | --- | ---: | --- | --- |
-| 1 | 4 | [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps) | 111,020 | 2026-05-09 | - |
-| 2 | 8 | [`josephmisiti/awesome-machine-learning`](https://github.com/josephmisiti/awesome-machine-learning) | 72,514 | 2026-05-12 | - |
-| 3 | 20 | [`keon/awesome-nlp`](https://github.com/keon/awesome-nlp) | 18,554 | 2026-05-11 | - |
-| 4 | 21 | [`BradyFU/Awesome-Multimodal-Large-Language-Models`](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 17,804 | 2026-05-01 | - |
-| 5 | 22 | [`jtoy/awesome-tensorflow`](https://github.com/jtoy/awesome-tensorflow) | 17,535 | 2026-02-08 | - |
+| 1 | 4 | [`Shubhamsaboo/awesome-llm-apps`](https://github.com/Shubhamsaboo/awesome-llm-apps) | 111,165 | 2026-05-09 | - |
+| 2 | 8 | [`josephmisiti/awesome-machine-learning`](https://github.com/josephmisiti/awesome-machine-learning) | 72,523 | 2026-05-12 | - |
+| 3 | 20 | [`keon/awesome-nlp`](https://github.com/keon/awesome-nlp) | 18,604 | 2026-05-19 | - |
+| 4 | 21 | [`BradyFU/Awesome-Multimodal-Large-Language-Models`](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 17,807 | 2026-05-01 | - |
+| 5 | 22 | [`jtoy/awesome-tensorflow`](https://github.com/jtoy/awesome-tensorflow) | 17,538 | 2026-02-08 | - |
 
 ### Backend
 
 | Category Rank | Global Rank | Repository | Stars | Last Push (UTC) | Notes |
 | --- | --- | --- | ---: | --- | --- |
-| 1 | 1 | [`vinta/awesome-python`](https://github.com/vinta/awesome-python) | 298,429 | 2026-05-19 | - |
-| 2 | 3 | [`avelino/awesome-go`](https://github.com/avelino/awesome-go) | 173,028 | 2026-05-18 | - |
-| 3 | 11 | [`rust-unofficial/awesome-rust`](https://github.com/rust-unofficial/awesome-rust) | 57,393 | 2026-05-18 | - |
-| 4 | 14 | [`akullpp/awesome-java`](https://github.com/akullpp/awesome-java) | 47,974 | 2026-04-12 | - |
-| 5 | 34 | [`uhub/awesome-cpp`](https://github.com/uhub/awesome-cpp) | 1,170 | 2026-04-25 | - |
+| 1 | 1 | [`vinta/awesome-python`](https://github.com/vinta/awesome-python) | 298,609 | 2026-05-19 | - |
+| 2 | 3 | [`avelino/awesome-go`](https://github.com/avelino/awesome-go) | 173,113 | 2026-05-19 | - |
+| 3 | 11 | [`rust-unofficial/awesome-rust`](https://github.com/rust-unofficial/awesome-rust) | 57,415 | 2026-05-20 | - |
+| 4 | 14 | [`akullpp/awesome-java`](https://github.com/akullpp/awesome-java) | 47,988 | 2026-04-12 | - |
+| 5 | 34 | [`uhub/awesome-cpp`](https://github.com/uhub/awesome-cpp) | 1,171 | 2026-04-25 | - |
 
 ### Data
 
 | Category Rank | Global Rank | Repository | Stars | Last Push (UTC) | Notes |
 | --- | --- | --- | ---: | --- | --- |
-| 1 | 5 | [`awesomedata/awesome-public-datasets`](https://github.com/awesomedata/awesome-public-datasets) | 75,515 | 2026-05-14 | - |
-| 2 | 19 | [`academic/awesome-datascience`](https://github.com/academic/awesome-datascience) | 29,229 | 2026-05-18 | - |
-| 3 | 24 | [`oxnr/awesome-bigdata`](https://github.com/oxnr/awesome-bigdata) | 14,396 | 2026-02-05 | - |
-| 4 | 29 | [`igorbarinov/awesome-data-engineering`](https://github.com/igorbarinov/awesome-data-engineering) | 8,650 | 2026-05-14 | - |
+| 1 | 5 | [`awesomedata/awesome-public-datasets`](https://github.com/awesomedata/awesome-public-datasets) | 75,546 | 2026-05-19 | - |
+| 2 | 19 | [`academic/awesome-datascience`](https://github.com/academic/awesome-datascience) | 29,236 | 2026-05-19 | - |
+| 3 | 24 | [`oxnr/awesome-bigdata`](https://github.com/oxnr/awesome-bigdata) | 14,398 | 2026-05-19 | - |
+| 4 | 29 | [`igorbarinov/awesome-data-engineering`](https://github.com/igorbarinov/awesome-data-engineering) | 8,651 | 2026-05-14 | - |
 
 ### DevOps
 
 | Category Rank | Global Rank | Repository | Stars | Last Push (UTC) | Notes |
 | --- | --- | --- | ---: | --- | --- |
-| 1 | 2 | [`awesome-selfhosted/awesome-selfhosted`](https://github.com/awesome-selfhosted/awesome-selfhosted) | 293,642 | 2026-05-16 | - |
-| 2 | 15 | [`veggiemonk/awesome-docker`](https://github.com/veggiemonk/awesome-docker) | 36,036 | 2026-05-18 | - |
-| 3 | 18 | [`awesome-foss/awesome-sysadmin`](https://github.com/awesome-foss/awesome-sysadmin) | 33,946 | 2026-05-16 | - |
-| 4 | 23 | [`ramitsurana/awesome-kubernetes`](https://github.com/ramitsurana/awesome-kubernetes) | 15,939 | 2026-04-28 | - |
-| 5 | 27 | [`dastergon/awesome-sre`](https://github.com/dastergon/awesome-sre) | 13,209 | 2025-08-28 | - |
+| 1 | 2 | [`awesome-selfhosted/awesome-selfhosted`](https://github.com/awesome-selfhosted/awesome-selfhosted) | 293,919 | 2026-05-16 | - |
+| 2 | 15 | [`veggiemonk/awesome-docker`](https://github.com/veggiemonk/awesome-docker) | 36,044 | 2026-05-18 | - |
+| 3 | 18 | [`awesome-foss/awesome-sysadmin`](https://github.com/awesome-foss/awesome-sysadmin) | 33,959 | 2026-05-16 | - |
+| 4 | 23 | [`ramitsurana/awesome-kubernetes`](https://github.com/ramitsurana/awesome-kubernetes) | 15,940 | 2026-04-28 | - |
+| 5 | 27 | [`dastergon/awesome-sre`](https://github.com/dastergon/awesome-sre) | 13,212 | 2025-08-28 | - |
 
 ### Frontend
 
 | Category Rank | Global Rank | Repository | Stars | Last Push (UTC) | Notes |
 | --- | --- | --- | ---: | --- | --- |
-| 1 | 6 | [`vuejs/awesome-vue`](https://github.com/vuejs/awesome-vue) | 73,598 | 2026-05-12 | - |
-| 2 | 7 | [`enaqx/awesome-react`](https://github.com/enaqx/awesome-react) | 73,313 | 2026-03-27 | - |
-| 3 | 9 | [`sindresorhus/awesome-nodejs`](https://github.com/sindresorhus/awesome-nodejs) | 65,749 | 2026-05-03 | - |
-| 4 | 17 | [`sorrycc/awesome-javascript`](https://github.com/sorrycc/awesome-javascript) | 34,969 | 2026-04-23 | - |
-| 5 | 32 | [`awesome-css-group/awesome-css`](https://github.com/awesome-css-group/awesome-css) | 5,558 | 2024-10-30 | - |
+| 1 | 6 | [`vuejs/awesome-vue`](https://github.com/vuejs/awesome-vue) | 73,602 | 2026-05-12 | - |
+| 2 | 7 | [`enaqx/awesome-react`](https://github.com/enaqx/awesome-react) | 73,331 | 2026-03-27 | - |
+| 3 | 9 | [`sindresorhus/awesome-nodejs`](https://github.com/sindresorhus/awesome-nodejs) | 65,760 | 2026-05-03 | - |
+| 4 | 17 | [`sorrycc/awesome-javascript`](https://github.com/sorrycc/awesome-javascript) | 34,974 | 2026-04-23 | - |
+| 5 | 32 | [`awesome-css-group/awesome-css`](https://github.com/awesome-css-group/awesome-css) | 5,560 | 2024-10-30 | - |
 
 ### Mobile
 
 | Category Rank | Global Rank | Repository | Stars | Last Push (UTC) | Notes |
 | --- | --- | --- | ---: | --- | --- |
-| 1 | 10 | [`Solido/awesome-flutter`](https://github.com/Solido/awesome-flutter) | 60,051 | 2026-04-21 | - |
-| 2 | 12 | [`wasabeef/awesome-android-ui`](https://github.com/wasabeef/awesome-android-ui) | 56,144 | 2024-07-06 | - |
-| 3 | 13 | [`vsouza/awesome-ios`](https://github.com/vsouza/awesome-ios) | 52,216 | 2026-04-24 | - |
-| 4 | 16 | [`jondot/awesome-react-native`](https://github.com/jondot/awesome-react-native) | 35,683 | 2024-07-05 | - |
+| 1 | 10 | [`Solido/awesome-flutter`](https://github.com/Solido/awesome-flutter) | 60,058 | 2026-04-21 | - |
+| 2 | 12 | [`wasabeef/awesome-android-ui`](https://github.com/wasabeef/awesome-android-ui) | 56,160 | 2024-07-06 | - |
+| 3 | 13 | [`vsouza/awesome-ios`](https://github.com/vsouza/awesome-ios) | 52,229 | 2026-04-24 | - |
+| 4 | 16 | [`jondot/awesome-react-native`](https://github.com/jondot/awesome-react-native) | 35,688 | 2024-07-05 | - |
 
 ### Security
 
 | Category Rank | Global Rank | Repository | Stars | Last Push (UTC) | Notes |
 | --- | --- | --- | ---: | --- | --- |
-| 1 | 25 | [`sbilly/awesome-security`](https://github.com/sbilly/awesome-security) | 14,340 | 2026-01-11 | - |
-| 2 | 26 | [`qazbnm456/awesome-web-security`](https://github.com/qazbnm456/awesome-web-security) | 13,375 | 2026-05-14 | - |
-| 3 | 30 | [`0xInfection/Awesome-WAF`](https://github.com/0xInfection/Awesome-WAF) | 7,476 | 2026-03-26 | - |
-| 4 | 31 | [`paragonie/awesome-appsec`](https://github.com/paragonie/awesome-appsec) | 6,914 | 2025-02-22 | - |
+| 1 | 25 | [`sbilly/awesome-security`](https://github.com/sbilly/awesome-security) | 14,351 | 2026-01-11 | - |
+| 2 | 26 | [`qazbnm456/awesome-web-security`](https://github.com/qazbnm456/awesome-web-security) | 13,380 | 2026-05-14 | - |
+| 3 | 30 | [`0xInfection/Awesome-WAF`](https://github.com/0xInfection/Awesome-WAF) | 7,477 | 2026-03-26 | - |
+| 4 | 31 | [`paragonie/awesome-appsec`](https://github.com/paragonie/awesome-appsec) | 6,915 | 2025-02-22 | - |
